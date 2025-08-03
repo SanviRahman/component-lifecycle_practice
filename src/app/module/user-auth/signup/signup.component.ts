@@ -28,7 +28,7 @@ export class SignupComponent {
     console.log('ngOnInit called');
   }
 
-  ngDoCheck() {
-    console.log('ngDoCheck called');
+  ngAfterViewInit() {
+    console.log('ngAfterViewInit called');
   }
 }
